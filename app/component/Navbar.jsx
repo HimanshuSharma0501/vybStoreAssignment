@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import { CiMenuBurger as BurgerIcon } from "react-icons/ci";
 import { FaRegUser as UserIcon } from "react-icons/fa";
+import Image from "next/image";
+
 const Navbar = () => {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -18,11 +20,14 @@ const Navbar = () => {
               placeholder="Search Creator/Product"
               className="w-full px-4 py-2 pl-10 border border-gray-300 rounded-md focus:outline-none"
             />
-            <img
-              src="/images/search.png"
-              alt="Search Icon"
-              className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400"
-            />
+            <div className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400">
+              <Image
+                src="/images/search.png"
+                alt="Search Icon"
+                width={20}
+                height={20}
+              />
+            </div>
           </div>
 
           <div className="flex space-x-8">
@@ -59,10 +64,9 @@ const Navbar = () => {
       <button
         className="md:hidden focus:outline-none text-white"
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+        aria-label="Toggle mobile menu"
       >
-        <span className="material-icons text-white text-2xl">
-          <BurgerIcon />
-        </span>
+        <BurgerIcon className="text-white text-2xl" />
       </button>
 
       {isMobileMenuOpen && (

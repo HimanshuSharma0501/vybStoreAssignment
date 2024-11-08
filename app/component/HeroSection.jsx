@@ -24,8 +24,8 @@ const HeroSection = () => {
           </p>
         </div>
         <p className="text-[32px] text-white mb-4">
-          "Unleash Your Influence: Sell Itineraries, Build Your Brand, Create
-          Merch, and Share Content - All in One Hub."
+          &quot;Unleash Your Influence: Sell Itineraries, Build Your Brand,
+          Create Merch, and Share Content - All in One Hub.&quot;
         </p>
         <div className="flex gap-4 text-[27px]">
           <button className="bg-[#00dc82] text-white py-2 px-6 rounded-lg shadow-md">
