@@ -39,8 +39,8 @@ const GetStartedSection = () => {
         >
           <div className="flex-1 text-left">
             <h3 className="text-2xl font-semibold mb-4">
-              "Monetize your Influencer Status: Earn money adding real value to
-              your true followers!"{" "}
+              &quot;Monetize your Influencer Status: Earn money adding real
+              value to your true followers!&quot;
             </h3>
             <p className="text-gray-300">
               Let VYB the money now !! Its here and withdraw it periodically.
@@ -63,7 +63,8 @@ const GetStartedSection = () => {
         >
           <div className="flex-1 text-left">
             <h3 className="text-2xl font-semibold mb-4">
-              "Call Audience to your store. Easily integrate links into content"
+              &quot;Call Audience to your store. Easily integrate links into
+              content&quot;
             </h3>
             <p className="text-gray-300">
               After setting up your products, its time to go public. Put your
@@ -87,7 +88,7 @@ const GetStartedSection = () => {
         >
           <div className="flex-1 text-left">
             <h3 className="text-2xl font-semibold mb-4">
-              "Build and Customize your store front"
+              &quot;Build and Customize your store front&quot;
             </h3>
             <p className="text-gray-300">
               Simply fill in the details to Build your digital store. Once Done,

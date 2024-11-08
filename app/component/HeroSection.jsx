@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import heroImage from "../../public/images/stockPictures/HeroSection/iamge.png"; // Renamed for clarity
+import heroImage from "../../public/images/stockPictures/HeroSection/image.png";
 
 const HeroSection = () => {
   return (
-    <div className="flex items-center gap-8 p-4 bg-gray-900">
+    <div className="flex flex-col md:flex-row items-center gap-8 p-4 bg-gray-900">
       <div className="flex-1 p-0 mt-0 text-[40px]">
         <div className="font-semibold mb-4 text-[90px] flex flex-wrap">
           <p className="bg-white text-black inline-block px-4 py-2 m-1 rounded-md">
@@ -37,10 +37,10 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="flex-1">
+      <div className="flex-1 mt-8 md:mt-0">
         <Image
           src={heroImage}
-          alt="Image Description"
+          alt="Hero Image"
           className="w-full h-auto rounded-lg shadow-lg"
         />
       </div>
