@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Image from "next/image";
 import heroImage from "../../public/images/stockPictures/HeroSection/iamge.png"; // Renamed for clarity

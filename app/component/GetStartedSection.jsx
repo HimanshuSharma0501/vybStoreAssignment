@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import React from "react";
 import a from "../../public/images/stockPictures/howToGetStarted/1.png";
